@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\form;
+namespace gdev\phpmvc\form;
 
 use app\models\Model;
 
@@ -8,7 +8,7 @@ use app\models\Model;
  * Class Field
  * 
  * @author Mauizio Giambrone <email@email.com> 
- * @package app\core\form
+ * @package gdev\phpmvc\form
  * 
  */
 

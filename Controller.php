@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace gdev\phpmvc;
 
-use app\core\Application;
-use app\core\middleware\BaseMiddleware;
+use gdev\phpmvc\Application;
+use gdev\phpmvc\middleware\BaseMiddleware;
 
 /**
  * Class Controller
@@ -18,7 +18,7 @@ use app\core\middleware\BaseMiddleware;
     public string $action = '';
  
     /***
-     * @var \app\core\middleware\BaseMiddleware[]
+     * @var \gdev\phpmvc\middleware\BaseMiddleware[]
      */
     protected array $middleware = [];
     

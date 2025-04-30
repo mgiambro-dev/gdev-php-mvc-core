@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core\db;
+namespace gdev\phpmvc\db;
 
 use app\models\Model;
-use app\core\Application;
+use gdev\phpmvc\Application;
 
 /**
  * Class DbModel
  * 
  * @author Maurizio Giambrone <email@email.com>
- * @package app\core
+ * @package gdev\phpmvc
  */
 
  abstract class DbModel extends Model

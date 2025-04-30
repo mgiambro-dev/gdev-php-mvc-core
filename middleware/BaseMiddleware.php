@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\middleware;
+namespace gdev\phpmvc\middleware;
 
 /**
  * Class BaseMiddleware
  * 
  * @author Maurizio Giambrone <email@email.com>
- * @package app\core\middlewares
+ * @package gdev\phpmvc\middlewares
  */
 
  abstract class BaseMiddleware

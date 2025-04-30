@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace gdev\phpmvc;
 
 use Exception;
-use app\core\db\Database;
+use gdev\phpmvc\db\Database;
 
 /**
  * class Application

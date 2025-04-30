@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace gdev\phpmvc;
 
-use app\core\db\DbModel;
+use gdev\phpmvc\db\DbModel;
 
 /**
  * Class UserModel
  * 
  * @author Maurizio Giambrone <email@email.com>
- * @package app\core
+ * @package gdev\phpmvc
  */
 
  abstract class UserModel extends DbModel

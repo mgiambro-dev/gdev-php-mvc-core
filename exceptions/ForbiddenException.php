@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exceptions;
+namespace gdev\phpmvc\exceptions;
 
 use Exception;
 
@@ -8,7 +8,7 @@ use Exception;
  * Class ForbiddenException
  * 
  * @author Maurizio Giambrone <email@email.com>
- * @package app\core\exceptions
+ * @package gdev\phpmvc\exceptions
  */
 
  class ForbiddenException extends Exception

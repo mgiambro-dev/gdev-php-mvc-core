@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace gdev\phpmvc;
 
 /**
  * Class Session
  * 
  * @author Maurizio Giambrone <email@email.com>
- * @package app\core
+ * @package gdev\phpmvc
  */
 
  class Session

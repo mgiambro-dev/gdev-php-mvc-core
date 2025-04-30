@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace gdev\phpmvc;
 
-use app\core\exceptions\NotFoundException;
+use gdev\phpmvc\exceptions\NotFoundException;
 
 /**
  * class Router
@@ -10,8 +10,8 @@ use app\core\exceptions\NotFoundException;
  * @author Maurizio Giambrone <email@email.com>
  * @package core/Router
  * 
- * @param \app\core\Request $request
- * @param \app\core\Response $response
+ * @param \gdev\phpmvc\Request $request
+ * @param \gdev\phpmvc\Response $response
  */
 
 class Router
@@ -52,7 +52,7 @@ class Router
         }
         
         if (is_array($callback)) {
-            /** @var \app\core\controller */
+            /** @var \gdev\phpmvc\controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

@@ -1,16 +1,16 @@
 <?php
 
-namespace app\core\db;
+namespace gdev\phpmvc\db;
 
 use PDO;
-use app\core\Application;
+use gdev\phpmvc\Application;
 
 
 /**
  * Class Database
  * 
  * @author Maurizio Giambrone <email@email.com>
- * @package app\core
+ * @package gdev\phpmvc
  */
 
 class Database

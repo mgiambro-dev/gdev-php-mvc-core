@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace gdev\phpmvc;
 
 /**
  * Class View
  * 
  * @author Maurizio Giambrone <email@email.com>
- * @package app\core
+ * @package gdev\phpmvc
  */
 
  class View
