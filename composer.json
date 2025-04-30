@@ -1,0 +1,10 @@
+{
+    "name": "gdev/php-mvc-core",
+    "authors": [
+        {
+            "name": "Maurizio Giambrone",
+            "email": "mgiambrone.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
